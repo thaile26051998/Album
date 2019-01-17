@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FullImageActivity"
+    tools:ignore="AlwaysShowAction,HardcodedText">
+
+    <item
+        android:id="@+id/action_setAs"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Set as"/>
+
+    <item
+        android:id="@+id/action_slideShow"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Slideshow"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Info"/>
+
+    <item
+        android:id="@+id/action_Copy"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Copy to directory"/>
+    <item
+        android:id="@+id/nva_favorite"
+        android:icon="@drawable/fav_checkbox_list"
+        app:showAsAction="always"
+        android:title="Favorite" />
+    <item
+        android:id="@+id/action_Move"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Move to directory"/>
+
+    <item
+        android:id="@+id/action_edit_in"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Edit in"/>
+
+    <item
+        android:id="@+id/action_panorama"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Panorama view"/>
+</menu>

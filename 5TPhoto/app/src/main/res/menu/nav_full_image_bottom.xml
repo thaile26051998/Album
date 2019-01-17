@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <item
+        android:id="@+id/nva_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"/>
+    <item
+        android:id="@+id/nav_edit"
+        android:icon="@drawable/ic_filter"
+        android:title="Filter" />
+    <item
+        android:id="@+id/nav_crop"
+        android:icon="@drawable/ic_crop"
+        android:title="Crop" />
+    <item
+        android:id="@+id/nva_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete" />
+
+</menu>

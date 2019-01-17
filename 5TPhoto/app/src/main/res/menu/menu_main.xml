@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fiveti.a5tphoto.Activity.MainActivity">
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="Camera"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+
+    <item
+        android:id="@+id/action_create_album"
+        android:orderInCategory="100"
+        android:title="Create new album"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+
+    <item
+        android:id="@+id/action_view"
+        android:orderInCategory="100"
+        android:title="Create 3D view"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_send_feedback"
+        android:orderInCategory="100"
+        android:title="Send feedback"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+    <item
+        android:id="@+id/action_favorite_list"
+        android:orderInCategory="100"
+        android:title="Favorite List"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+    <item
+        android:id="@+id/action_compress_image"
+        android:orderInCategory="100"
+        android:title="Compress image"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+    <item
+        android:id="@+id/action_download_image"
+        android:orderInCategory="100"
+        android:title="Download image"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_photo_camera_black_24dp"/>
+</menu>
